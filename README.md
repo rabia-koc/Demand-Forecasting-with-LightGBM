@@ -14,10 +14,14 @@
 * Bir mağaza zincirinin 5 yıllık verilerinde 10 farklı mağazası ve 50 farklı ürünün bilgileri yer almaktadır.
 
 # Değişkenler
-* date–Satış verilerinin tarihi
-Tatil efekti veya mağaza kapanışı yoktur.
-* Store –Mağaza ID’si
+* date –--> Satış verilerinin tarihi
+   * Tatil efekti veya mağaza kapanışı yoktur.
+   
+* Store –--> Mağaza ID’si
    * Her bir mağazaiçin eşsiz numara.
-* Item–Ürün ID’si
-* Her bir ürün için eşsiz numara.
-DeğişkenlerİŞ PROBLEMİVERİ SETİDEĞİŞKENLERAMAÇSales–Satılan ürün sayıları,Belirli bir tarihte belirli bir mağazadan satılan ürünlerin sayısı
+   
+* Item –--> Ürün ID’si
+   * Her bir ürün için eşsiz numara.
+   
+* Sales ---> Satılan ürün sayıları
+  * Belirli bir tarihte belirli bir mağazadan satılan ürünlerin sayısı
