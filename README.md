@@ -1,24 +1,16 @@
 # Store Item Demand Forecasting
 
-
 ![Demand-Forecasting-Turning-the-Art-of-Forecasting-into-a-Science-DemandCaster-hero](https://user-images.githubusercontent.com/73841520/128085916-73a3b3c2-2e3c-4d18-aad1-adb20c664b61.jpg)
 
-# İş Problemi
-* Bir mağaza zinciri, 10 farklı mağazası ve 50 farklı ürünü için 3 aylık bir talep tahmini istemektedir. 
+## History of Project:
+* A chain of stores, 10 different stores and 50 different requests a 3-month demand forecast for its product. So, using some time series and machine learning techniques, a 3-month demand forecasting model will be created.
 
-# Veri Seti Hikayesi
-* Bu veri seti farklı zaman serisi tekniklerini denemek için sunulmuştur.
-* Bir mağaza zincirinin 5 yıllık verilerinde 10 farklı mağazası ve 50 farklı ürünün bilgileri yer almaktadır.
+## History of Dataset:
+* Information of 10 different stores and 50 different products in 5-year data of a chain of stores is located.
 
-# Değişkenler
-* date –--> Satış verilerinin tarihi
-   * Tatil efekti veya mağaza kapanışı yoktur.
-   
-* Store –--> Mağaza ID’si
-   * Her bir mağazaiçin eşsiz numara.
-   
-* Item –--> Ürün ID’si
-   * Her bir ürün için eşsiz numara.
-   
-* Sales ---> Satılan ürün sayıları
-  * Belirli bir tarihte belirli bir mağazadan satılan ürünlerin sayısı
+## Variables:
+* date ---> Dates of Sales Data (There are no holiday effects or store closures.) 
+* store ---> ID's of Stores (Unique number for each store.) 
+* item ---> ID's of Products (Unique number for each product.) 
+* sales ---> Number of Products Sold (The number of products sold from a particular store on a given date.) 
+
