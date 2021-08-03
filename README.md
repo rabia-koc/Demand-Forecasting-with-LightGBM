@@ -10,7 +10,7 @@
 
 ## Variables:
 * date ---> Dates of Sales Data (There are no holiday effects or store closures.) 
-* store ---> ID's of Stores (Unique number for each store.) 
-* item ---> ID's of Products (Unique number for each product.) 
+* store ---> IDs of Stores (Unique number for each store.) 
+* item ---> IDs of Products (Unique number for each product.) 
 * sales ---> Number of Products Sold (The number of products sold from a particular store on a given date.) 
 
